@@ -1,0 +1,30 @@
+[
+    {
+        "dir": "/mnt",
+        "clients": [
+            {
+                "ip": "192.168.1.239",
+                "opts": ["rw", "no_root_squash", "no_subtree_check"]
+            },
+            {
+                "ip": "192.168.1.185",
+                "opts": ["rw", "no_root_squash", "no_subtree_check"]
+            }
+
+        ]
+    },
+    {
+        "dir": "/home",
+        "clients": [
+            {
+                "ip": "192.168.1.239",
+                "opts": ["rw", "no_root_squash", "no_subtree_check"]
+            },
+            {
+                "ip": "192.168.1.168",
+                "opts": ["rw", "no_root_squash", "no_subtree_check"]
+            }
+
+        ]
+    }
+]
